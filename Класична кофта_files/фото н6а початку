@@ -1,0 +1,106 @@
+
+
+<div class="benefits_block clearfix">
+				<div class="benefit_item">
+					<img src="./Класична кофта_files/c1.png" alt="">
+					<p>•Унісекс </p>
+				</div>
+				<div class="benefit_item">
+					<img src="./Класична кофта_files/c2.png" alt="">
+					<p>•Стильний вибір</p>
+				</div>
+				<div class="benefit_item">
+					<img src="./Класична кофта_files/555.png" alt="">
+					<p>•Можна поєднувати кольори</p>
+				</div>
+			</div>
+
+
+
+            <style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.slider {
+			position: relative;
+			max-width: 600px;
+			margin: auto;
+			overflow: hidden;
+		}
+		
+		.slides {
+			display: flex;
+			transition: transform 0.5s ease-in-out;
+		}
+		
+		.slide {
+			min-width: 100%;
+			box-sizing: border-box;
+		}
+		
+		.slide img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+		.prev, .next {
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 24px;
+			transition: background-color 0.6s ease;
+			cursor: pointer;
+			border-radius: 3px;
+			user-select: none;
+		}
+		
+		.prev {
+			left: 0;
+		}
+		
+		.next {
+			right: 0;
+		}
+		
+		.prev:hover, .next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		let slideIndex = 0;
+	</style>
+	
+
+		<html lang="uk">
+			<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Галерея Зображень</title>
+				<link rel="stylesheet" href="styles.css">
+			</head>
+			<body>
+				<div class="slider">
+					<div class="slides">
+						<div class="slide"><img src="image1.jpg" alt="Image 1"></div>
+						<div class="slide"><img src="image2.jpg" alt="Image 2"></div>
+						<div class="slide"><img src="image3.jpg" alt="Image 3"></div>
+						<!-- Додайте більше зображень за потреби -->
+					</div>
+					<a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+					<a class="next" onclick="changeSlide(1)">&#10095;</a>
+				</div>
+				<script src="script.js"></script>
+			</body>
+			</html>
+
+
+            <ul class="characteristics__list">
+			<li><b>Тканина:</b>50% акріл, 50% котон</li>
+			<li><b>Виробник:</b>Туреччина</li>
+			<li><b>Розміри:</b>S/M/L/XL</li>
+			</ul>

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Light.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Light.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Light.ttf.html') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Regular.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Regular.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Regular.ttf.html') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Italic.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Italic.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Italic.ttf.html') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Medium.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Medium.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Medium.ttf.html') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Bold.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Bold.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Bold.ttf.html') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://sweetshot.trustman.store/subsetMontserrat%20Black.woff2.html') format('woff2'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Black.woff.html') format('woff'),
+        url('https://sweetshot.trustman.store/subsetMontserrat%20Black.ttf.html') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* Localized */
